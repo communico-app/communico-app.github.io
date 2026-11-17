@@ -53,7 +53,18 @@
     <main class="max-w-md mx-auto p-4 space-y-6">
       <!-- DYNAMIC MESSAGE OF THE DAY / MESSAGGIO DEL GIORNO -->
         <div class="border-2 border-custom-#B0FF32 p-4 rounded-xl text-center bg-#B0FF32-950/40 shadow-lg">
-            <h1 class="text-3xl font-black tracking-widest uppercase">🪪 SPID 🪪</h1>
+            <style>
+  @keyframes lampeggio-netto {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+  }
+  .testo-lampeggiante {
+    animation: lampeggio-netto 1s infinite;
+  }
+</style>
+
+<h1 class="text-3xl font-black tracking-widest uppercase testo-lampeggiante">✍️FIRMA DIGITALE</h1>
+
             <h1 class="text-3xl font-black tracking-widest uppercase">📩PEC📩</h1>
             <style>
   @keyframes lampeggio-netto {
