@@ -51,19 +51,19 @@
     </header>
      <main class="max-w-md mx-auto p-4 space-y-6">
       <!-- DYNAMIC MESSAGE OF THE DAY / MESSAGGIO DEL GIORNO -->
-         <div class="contenitore-locandina">
+       <div class="contenitore-locandina relative">
   <img 
-     src="personaggio22.png"
-
+    src="personaggio22.png" 
     alt="Servizi Communico: pagamento bollettini, SPID, telefonia e luce e gas" 
-    class="locandina"
+    class="locandina w-full"
   >
-</div> 
-      <a href="#orari">
-  <img src="orarioapertura1.png" alt="Orario Apertura" style="width: 150px; height: 70px; object-fit: fill; margin: 20px 0;">
 
-        
-</a>
+  <!-- Tasto sovrapposto in basso a destra dentro l'immagine -->
+  <a href="#orari" class="absolute bottom-3 right-3 z-20 flex items-center gap-1 bg-orange-500 hover:bg-orange-600 text-white text-sm font-bold py-2 px-3 rounded-full shadow-lg transition duration-300">
+    🕒 Orari
+  </a>
+</div>
+
 
        <div style="width: 100%; text-align: center; margin: 25px 0;">
   <img 
